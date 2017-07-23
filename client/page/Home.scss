@@ -1,0 +1,29 @@
+$primary-color:#0987DB;
+
+.home{
+  .activity-group-name{
+    height:60px;
+    border-bottom:1px solid darkgrey;
+    margin-bottom: 15px;
+    h2{
+      float:left;
+      font-size:24px;
+      margin:0;
+      line-height:60px;
+    }
+    .view-btn{
+      margin-top: 8px;
+      padding:10px;
+      font-size:18px;
+      color:white;
+      background-color: $primary-color;
+      border-radius:3px;
+      opacity:0.5;
+      float:right;
+      &:hover{
+        opacity: 1;
+        text-decoration: none;
+      }
+    }
+  }
+}

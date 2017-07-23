@@ -1,0 +1,87 @@
+$primary-color:#0987DB;
+
+header{
+  .header-top{
+    padding:15px 35px;
+    height:100px;
+    .logo{
+      float: left;
+      img{
+        height:80px;
+      }
+    }
+    .login {
+      float:right;
+      line-height:70px;
+      .logined-btn{
+        button{
+          background: none;
+          border:none;
+          &:focus{
+            box-shadow: none;
+          }
+          &:hover{
+            background-color: lightgrey;
+          }
+        }
+        .dropdown-menu{
+          width:100%;
+        }
+      }
+      .avatar {
+        &:hover{
+          text-decoration: none;
+        }
+        img {
+          display: inline;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 2px solid $primary-color;
+        }
+        .login-name{
+          display: inline;
+          font-size:18px;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+  .navbar.header-navbar{
+    background-color: $primary-color;
+    border-radius: 0;
+    padding:5px 0;
+    .navbar-brand{
+      color:white;
+      font-size:24px;
+      font-weight:bold;
+    }
+    .navbar-nav{
+      li{
+        a{
+          color:white;
+          font-size: 24px;
+          &:hover{
+            color: $primary-color;
+            background: white;
+          }
+        }
+      }
+      .dropdown-menu{
+        background: $primary-color;
+      }
+    ;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .login {
+    display: none;
+  }
+  .navbar.header-navbar {
+    .navbar-brand {
+      font-size: 18px !important;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+mup-*
+_windows/
+codestyles/
+debugger.xml
+ide.general.xml
+other.xml
+project.default.xml
+ui.lnf.xml

@@ -1,0 +1,142 @@
+.item {
+	width: unset;
+	height: 100%;
+	/*width: auto;*/
+	min-height: 400px;
+}
+
+
+body { 
+  font-size: 2em; 
+}
+
+.carousel-indicators {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 60px;
+    bottom: 35px;
+    z-index: 500;
+}
+
+.carousel-indicators>li, .carousel-indicators .active {
+    height: 60px;
+    width: 60px;
+    float: left;
+    list-style-type: none;
+    margin-right: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: unset;
+    border-color: red;
+}
+
+.carousel-indicators>li img {
+	float: left;
+    width: 60px;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/*editable*/
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  right: -100%;
+  background-color: rgba(18,17,17,0.7);
+  overflow: hidden;
+  height: 100%;
+  transition: .5s ease;
+  padding: 15px;
+}
+
+.container:hover .overlay {
+  /*width: 40%;*/
+  right: 0;
+}
+
+.text {
+  overflow-y: scroll;
+  color: white;
+  display: block;
+  text-align: justify;
+  height: 50%;
+  max-height: 50%;
+  padding-right: 20px;
+}
+::-webkit-scrollbar {
+    width: 0px;  			  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.event-title {
+	color: red;
+}
+
+.bannersld-in a {
+    display: block;
+}
+
+a:focus, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-watch-movie {
+    background: #F44336;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.overlay .info-watch-more {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.event-description {
+    background-color: white;
+    padding: 5px;
+    padding-top: 15px;
+    line-height: 13px;
+    min-height: 45px;
+    border-radius: 10px;
+    width: 70%;
+    min-width: 300px;
+}
+
+.overlay .info-description .info-year {
+    display: block;
+    line-height: 25px;
+    line-height: 1.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.carousel-inner>.item>img {
+	max-width: unset;
+    height: unset;
+    max-height: 500px;
+}

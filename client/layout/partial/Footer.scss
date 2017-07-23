@@ -1,0 +1,24 @@
+.footer {
+	.above {
+	background-color: #006FB7;
+	color: white;
+		.above-text {
+		margin-top: 25px;
+		font-size: x-large;
+		}
+		img {
+		    padding-left: 10px;
+		    padding-top: 10px;
+		    bottom: -15px;
+		    position: relative;
+		}
+	}
+	.below {
+		font-size: 1em;
+		color: #04B0EF;
+		padding-left: 70px;
+    	padding-top: 30px;
+	}
+}
+
+
